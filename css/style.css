@@ -1,0 +1,85 @@
+/*CSS Practice Start*/
+body {
+    background-color: blanchedalmond;
+    
+}
+h2{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    background-image: url(img/bg_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    margin: 0 0 50px 0;
+    padding: 10px 30px 40px 20px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+} 
+.dotted{
+    border-style: dotted;
+    border-color: black;
+    border-left: solid;
+    border-right: solid; 
+}  
+.dashed{
+    border-style: dashed;
+
+} 
+.solid{
+    border-style: solid;
+    border-radius: 10px
+    
+
+}  
+.double{
+    border-style: double;
+    outline-offset: 50px;
+    outline-width: 50px;
+    outline-color: blueviolet; 
+} 
+.groove{
+    border-style: groove;
+
+} 
+.ridge{
+    border-style: ridge;
+
+} 
+.inset{
+    border-style: inset;
+} 
+.outset{
+    border-style: outset;
+
+} 
+.none{
+    border-style: none;
+
+} 
+.hidden{
+    border-style: hidden;
+
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+  
+p {
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: aqua;
+}
+aside{  
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+}    
+/*CSS Practice End*/
